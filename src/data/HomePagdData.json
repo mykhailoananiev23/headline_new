@@ -1,0 +1,346 @@
+{
+  "intro": {
+    "imgUrl": "/images/headline.png",
+    "name": "תסריט כותרת",
+    "heading": " כותרת מדהים",
+    "typingText": [" מחולל"],
+    "description": " צור באופן מיידי עשרות כותרות מושכות תשומת לב ומוצצות כסף שעוצרות אנשים בעקבותיהם! השתמש בהם בכל מקום!",
+    "btnText": "התחל עכשיו!",
+    "btnUrl": "intro"
+  },
+  "socialBtns": [
+    {
+      "icon": "fa-brands:facebook-f",
+      "iconBgClass": "facebook",
+      "href": "/"
+    },
+    { "icon": "fa-brands:dribbble", 
+    "iconBgClass": "dribbble", 
+    "href": "/" },
+    {
+      "icon": "fa-brands:linkedin-in",
+      "iconBgClass": "linkedin",
+      "href": "/"
+    }
+  ],
+  "brands": [
+    {
+      "src": "/images/text_1.svg",
+      "alt": "1. מלא את הטופס למטה..."
+    },
+    {
+      "src": "/images/text_2.svg",
+      "alt": "2. דפק את כפתור הבנייה..."
+    },
+    {
+      "src": "/images/text_3.svg",
+      "alt": "3. השתמש בכותרות כדי להשיג יותר מכירות ולתפוס יותר מנויים!"
+    }
+  ],
+  "about": {
+    "imgSrc": "/images/about-banner.png",
+    "miniTitle": "About Me",
+    "title": "Rest assured that your investment will <span>prove</span> to be worth it.",
+    "description": "As a developer who values integrity and accountability, I deliver results that speak for themselves. With expertise in a variety of technologies, I ensure that every project meets high standards.  Every investment will prove its worth.  Hope to connect from you.  - Mykhailo Ananiev -",
+    "funfacts": [
+      {
+        "title": "Google Review",
+        "number": 120
+      },
+      {
+        "title": "Years Experience",
+        "number": 8
+      },
+      {
+        "title": "Awward Winning",
+        "number": 25
+      }
+    ],
+    "btnText": "Get in touch",
+    "btnUrl": "intro"
+  },
+  "projects": {
+    "sectionHeading": {
+      "miniTitle": "My Work",
+      "title": "RECENT PROJECT"
+    },
+    "allProjects": [
+      {
+        "thumbUrl": "/images/portfolio/portfolio-1.jpg",
+        "title": "Introduction Restaurant",
+        "subTitle": "Figma into wordpress",
+        "details": {
+          "title": "Web development for Marketing Agency Startup",
+          "description": "- Analyzing the Figma design and understanding its components, layout, and functionality. <br> -Converting the design into  code, which involves coding HTML tags and using CSS to style the page.  Ensuring that the HTML code is responsive, meaning that it adapts to different screen sizes and devices.<br>- Thoroughly testing the HTML code to ensure that it functions correctly and looks as expected on different browsers and devices.<br>- Delivering the final HTML code, which can be deployed to a web server and accessed by users.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "url": "http://foodbakery.chimpgroup.com/single-restaurant"
+        }
+      },
+      {
+        "thumbUrl": "/images/portfolio/Screenshot_4.png",
+        "title": "The Develop Duplicated Fortnite Website.",
+        "subTitle": " Integrate fortnite API",
+        "details": {
+          "title": "The Develop Duplicated Fortnite Website.",
+          "description": "- Integrate fortnite API <br>  - Customize map matched with season of Fortnite Platform <br> - Styling data type as object to get and bind data to frontne part.",
+          "type": "Website",
+          "langages": "Frontend Development. Express JS",
+          "platform": "Website",
+          "url": ""
+        }
+      },
+      {
+        "thumbUrl": "/images/portfolio/Screenshot_1.png",
+        "title": "Real-time Data streaming for trading, stock, market data",
+        "subTitle": "Azure, Typescript, Angular, ASP.NET",
+        "details": {
+          "title": "Real-time Data streaming for trading, stock, market data",
+          "description": "- Integrate lightstreamer for react-time data streaming. <br>  - Integrate AmChart for analyzing of stock and market data <br>  - Integrate OAuth of Azure",
+          "type": "Frontend Developmen",
+          "langages": "Azure, Typescript, Angular, ASP.NET",
+          "platform": "LightStreamer",
+          "url": ""
+        }
+      },
+      {
+        "thumbUrl": "/images/portfolio/Screenshot_2.png",
+        "title": "The Develop Customize Mapbox  in Retool",
+        "subTitle": "Azure, Typescript, Angular, ASP.NET",
+        "details": {
+          "title": "Customize Mapbox in Retool",
+          "description": "- Customize Mapbox in Retool <br> - Add filtering function per user's location <br> - Add date picker to set date range to filtering function <br> - Vusallization of Map Component",
+          "type": "Frontend Developmen",
+          "langages": "Javascript, Typescript, HTML, Frontend Development",
+          "platform": "Retool",
+          "url": ""
+        }
+      },
+      {
+        "thumbUrl": "/images/portfolio/Screenshot_3.png",
+        "title": "Integration of Tradingview chart library",
+        "subTitle": "React Naitive, Typescript, Tailwind CSS",
+        "details": {
+          "title": "Customize Mapbox in Retool",
+          "description": "- Customize Mapbox in Retool <br> - Add filtering function per user's location <br> - Add date picker to set date range to filtering function <br> - Vusallization of Map Component",
+          "type": "Frontend Developmen",
+          "langages": "Javascript, Typescript, HTML, Frontend Development",
+          "platform": "Retool",
+          "url": ""
+        }
+      },
+      {
+        "thumbUrl": "/images/portfolio/portfolio-2.jpg",
+        "title": "The Develop Featured Produce",
+        "subTitle": "Figma into Wordpress",
+        "details": {
+          "title": "Figma into Wordpress",
+          "description": "- experience with responsive design and development, including cross-browser compatibility and accessibility best practices.<br>- Proficiency in design tools such as Sketch, Figma, or Adobe Creative Suite.<br>- Strong understanding of user-centered design principles and the ability to create wireframes and mockups that effectively communicate design concepts and user flows.",
+          "type": "Website",
+          "langages": "Wordpress, HTML, CSS, JS",
+          "platform": "WordPress",
+          "url": "https://mitchellandness.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/portfolio/portfolio-3.jpg",
+        "title": "Dashboard Design",
+        "subTitle": "Build Front-end with React and Next.js",
+        "details": {
+          "title": "Build Front-end with React and Next.js",
+          "description": "Build the front-end with React and Next.js.<br>- I have helped clients migrate their sites to WordPress from other platforms, such as Squarespace and Wix, and have provided ongoing maintenance and support to ensure their sites are always up-to-date and secure.<br>- My knowledge of responsive design and accessibility best practices has enabled me to build WordPress sites that are optimized for all devices and users, regardless of their abilities.",
+          "type": "Website",
+          "langages": "Next.js, React, CSS, JS",
+          "platform": "WordPress",
+          "url": "https://www.vacationbythemouse.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/portfolio/portfolio-4.jpg",
+        "title": "Web Design, App Design",
+        "subTitle": "Build with React and Redux",
+        "details": {
+          "title": "Build with React and Redux",
+          "description": "Experience with React.js and its ecosystem, including React Router.<br>- Redux or Context API, and popular libraries like Axios or Fetch.<br>- Familiarity with CSS pre-processors like Sass or Less, or styling libraries like Material UI or Bootstrap.<br>- Ability to create responsive layouts using CSS and HTML.<br>- Knowledge of web development tools and workflows, including Node.js, Git, and Webpack.<br>- Familiarity with deploying web applications to servers using tools like Heroku or Netlify.",
+          "type": "Website",
+          "langages": "Redux, React, CSS, JS",
+          "platform": "WordPress",
+          "url": "https://www.universal-music.de/amymacdonald"
+        }
+      },
+      {
+        "thumbUrl": "/images/portfolio/portfolio-5.jpg",
+        "title": "Web Design, App Design",
+        "subTitle": "Build Back-end with ExpressJS",
+        "details": {
+          "title": "Build Back-end with ExpressJS",
+          "description": "- Successfully integrated cloud services for RIA support and product fulfillment application, multilingual content services, and a pluggable payment provider architecture for pre-authorization credit card payments.<br>- Optimized SQL queries for the heavy-load parts of the system, which improved website responsiveness and reduced the database costs by 20%.<br>- Redeveloped existing systems to support custom account management, content, and mobile business verticals.",
+          "type": "Website",
+          "langages": "ExpressJS, HTML, CSS, JS",
+          "platform": "WordPress",
+          "url": "https://docksidegroup.com.au/#reveal=contentPopout1700"
+        }
+      },
+      {
+        "thumbUrl": "/images/portfolio/portfolio-6.jpg",
+        "title": "Web Design, App Design",
+        "subTitle": "Anguar & Laravel Project",
+        "details": {
+          "title": "Build whole project with Anguar & Laravel",
+          "description": "Deep understanding in Angular and Ngrx.<br>- Associate Angular and Laravel with MongoDB and perform testing like Unit Test.<br>- I resolved by configuring CORS  on the Laravel API because of Angular runs on the client-side and Laravel runs on the server-side, so there may be issues with CORS when trying to make requests from Angular to a Laravel API",
+          "type": "Website",
+          "langages": "Anguar, Laravel, CSS, JS",
+          "platform": "WordPress",
+          "url": "https://www.yargiracing.com.au"
+        }
+      },
+      {
+        "thumbUrl": "/images/portfolio/portfolio-7.jpg",
+        "title": "Web Design, App Design",
+        "subTitle": "Animation with CSS and JS",
+        "details": {
+          "title": "Animation with original CSS and JavaScript",
+          "description": " -I have made animation with CSS and JavaScript without any libraries for animation.<br>- I have fixed the issues in integration into WordPress and maintain the correct run.<br>- Through this project I have deep understanding of animation and enhanced my skills.",
+          "type": "Website",
+          "langages": "HTML, CSS, JS",
+          "platform": "WordPress",
+          "url": "https://www.adamgunn.ca"
+        }
+      },
+      {
+        "thumbUrl": "/images/portfolio/portfolio-8.jpg",
+        "title": "Web Design, App Design",
+        "subTitle": "Create Keyclock with React",
+        "details": {
+          "title": "Create Keycloak theme and integration with React",
+          "description": "- I have created keycloak theme with Java and JavaScript.<br>- I have integrated with React and maintained to run correctly.<br>- Through this project, I have known about keycloak and springboot and have knowledge of Java and related frameworks. ",
+          "type": "Website",
+          "langages": "React, CSS, JS",
+          "platform": "WordPress",
+          "url": "https://www.eco-business.com"
+        }
+      }
+      ,
+      {
+        "thumbUrl": "/images/portfolio/portfolio-9.jpg",
+        "title": "Web Design, App Design",
+        "subTitle": "Shopify",
+        "details": {
+          "title": "Shopify",
+          "description": " - I am proficient in HTML, CSS, JavaScript, and Liquid, which has enabled me to build responsive and user-friendly Shopify sites that are optimized for performance.<br>- I have implemented various Shopify plugins and integrations, such as Shopify Payments, Mailchimp, and Facebook Pixel, to help clients streamline their e-commerce operations and grow their businesses.<br>- I have helped clients migrate their online stores to Shopify from other platforms, such as WooCommerce and Magento, and have provided ongoing maintenance and support to ensure their stores are always up-to-date and secure.",
+          "type": "Website",
+          "langages": "React, CSS, JS",
+          "platform": "WordPress",
+          "url": "https://www.luisaonline.com"
+        }
+      }
+    ]
+  },
+  "service": {
+    "sectionHeading": {
+      "miniTitle": "SERVICES",
+      "title": "Design <span>services</span> I am providing"
+    },
+    "allService": [
+      {
+        "imgUrl": "/images/service-09.jpg",
+        "title": "Website Design",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "icon": "bi:brush-fill",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/service-02.jpg",
+        "title": "Website Design",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "icon": "bi:code-square",
+        "ratings": 4.5
+      },
+      {
+        "imgUrl": "/images/service-03.jpg",
+        "title": "SEO Marketing",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "icon": "bi:speedometer2",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/service-04.jpg",
+        "title": "Graphic Design",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "icon": "bi:palette",
+        "ratings": 5
+      }
+    ]
+  },
+  "experience": {
+    "sectionHeading": {
+      "miniTitle": "Experience",
+      "title": "My Work <span>Experience</span>"
+    },
+    "allExperience": [
+      {
+        "designation": "Software Developer",
+        "company": "Self-Employed",
+        "duration": "APR 2023 - PRESENT",
+        "jobType": "Full time",
+        "companyTitle": "Freelancer",
+        "companyDescription": "Experienced in MERN stack, WordPress, and Shopify, I develop custom web solutions for diverse clients. Proficient in HTML, CSS, JavaScript, and PHP, I create visually appealing and functional websites. I optimize SEO to boost site visibility and rankings. Specializing in user-friendly mobile apps, I integrate seamless payment systems and APIs, particularly on Google Cloud. Rigorous testing ensures efficient performance, and my problem-solving skills deliver fast results, exceeding expectations."
+      },
+      {
+        "designation": "Software Engineer",
+        "company": "Saasconversion.io & CX.AI ",
+        "duration": "Mar 2021 - Jun 2023 (2 years, 3 months)",
+        "jobType": "Full time",
+        "companyTitle": "MacPaw ",
+        "companyDescription": "I am a dedicated Senior Software Developer with a focus on revolutionizing the financial technology landscape through expertise in trading systems and real-time data streaming. My work with a leading financial technology company has been instrumental in enhancing their technological infrastructure, enabling them to stay ahead in a dynamic market. "
+      },
+      {
+        "designation": "Software Engineer",
+        "company": "Svitla Systems",
+        "duration": "Apr 2019 - Sep 2020 (1 year, 5 months)",
+        "jobType": "Full time",
+        "companyTitle": "Odessa National Polytechnic University",
+        "companyDescription": "As a seasoned Full Stack Developer, I have had the privilege of contributing to the success of a leading global e-commerce platform by playing a pivotal role in the development and optimization of both frontend interfaces and backend systems."
+      }
+    ]
+  },
+  "testimonial": {
+    "sectionHeading": {
+      "miniTitle": "Testimonial",
+      "title": "Over <span>1,000+</span> <br /> PEOPLE TRUST ME"
+    },
+    "allTestimonial": [
+      {
+        "reviewText": "It was a pleasure working with Mykhailo. He is a very skilled programmer and it shows in his code and speed in delivery. Would definitely work with again. Thank you Mykhailo!!",
+        "avatarImg": "/images/avatar-3.jpg",
+        "avatarName": "Sam L.",
+        "avatarCompany": ""
+      },
+      {
+        "reviewText": "Perfect job. Amazing knowledge and communications.        Definitely I recommend Mykhailo.",
+        "avatarImg": "/images/avatar-1.jpg",
+        "avatarName": "Teodor P.",
+        "avatarCompany": ""
+      },
+      {
+        "reviewText": "Mykhailos is a reliable and organized developer. They have shown excellent project management skills, consistently meeting project deadlines and efficiently coordinating tasks with the team. Their contributions have greatly contributed to our project's success, from initial planning to the final deployment.",
+        "avatarImg": "/images/avatar-2.jpg",
+        "avatarName": "Pamela Anders",
+        "avatarCompany": ""
+      }
+   
+    ]
+  },
+  "contact": {
+    "sectionHeading": {
+      "title": "הגדל את המכירות עם כותרות קליטות!",
+      "subTitle": "מלא את הטופס, לחץ על כפתור לבנות וראה את המכירות שלך מזנקות עם כותרות שובות לב שמושכות יותר מנויים!"
+    },
+    "contactImg": "/images/FS_Hate-Love-Copywriting-200x600.jpg",
+    "contactInfo": [
+      { "title": "Write an e-mail", "email": "mykhailoananiev@gmail.com" }
+
+    ]
+  }
+}
