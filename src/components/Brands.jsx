@@ -47,7 +47,7 @@ export default function Brands({ data }) {
             <div key={index}>
               <div  className="moveText pt-3 pb-3 text-center d-flex align-items-center justify-content-center w-100">
                 {/* <img src={item.src} alt={item.alt} className="w-100" /> */}
-              <h3>ברוכים הבאים ל- Funnel Scripts! </h3>
+              <h3>ברוכים הבאים למחולל הכותרות</h3>
               </div>
             </div>
           ))}

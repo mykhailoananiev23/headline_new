@@ -58,7 +58,7 @@ export default function ContactForm() {
 
   return (
     // <form id="contact-form" onSubmit={onSubmit}>
-    <form onSubmit={sendEmail}>
+    <form onSubmit={sendEmail} dir="rtl">
 
       <div className="row gx-3 gy-4">
 
@@ -67,7 +67,7 @@ export default function ContactForm() {
         <div className="col-md-12">
           <div className="form-group">
             <label className="form-label">קהל נישה &#40; יחיד &#41; :</label>
-            <input
+            <input dir="rtl" 
               name="name"
               placeholder=""
               className="form-control"
@@ -84,9 +84,9 @@ export default function ContactForm() {
         </div>
         {/* ////////////2///////////// */}
         <div className="col-md-12">
-          <div className="form-group">
+          <div className="form-group" >
             <label className="form-label">נושא מילת המפתח העיקרי מספר 1 שלך:</label>
-            <input
+            <input dir="rtl"
               name="name"
               placeholder=""
               className="form-control"
@@ -104,7 +104,7 @@ export default function ContactForm() {
         <div className="col-md-12">
           <div className="form-group">
             <label className="form-label">נושא מילת המפתח העיקרי מספר 2 שלך:</label>
-            <input
+            <input dir="rtl"
               name="name"
               placeholder=""
               className="form-control"
@@ -120,8 +120,8 @@ export default function ContactForm() {
         {/* /////////////4///////////// */}
         <div className="col-md-12">
           <div className="form-group">
-            <label className="form-label">מהי התוצאה הגדולה מספר 1 שהם רוצים? &#40;מתחיל ב-VERB &#41;</label>
-            <input
+            <label className="form-label">  מהי התוצאה הגדולה מספר 1 שהם רוצים?    &#40; צריך להתחיל בפועל     &#41; </label>
+            <input dir="rtl"
               name="name"
               placeholder=""
               className="form-control"
@@ -131,14 +131,14 @@ export default function ContactForm() {
               required
             />
             <span style={{ color: 'white' }}>"מהי התוצאה הגדולה מספר 1 שהם רוצים?" &#40;VERB &#41;</span><br></br>
-            <label className="label">&#40;לדוגמה: בחר יותר מניות מניבות כסף; פרסם ספר אלקטרוני רווחי להחריד שלך; למכור את הבית שלך בדולר העליון; לקנות בית חלומות משלך; וכו '&#41;</label>
+            <label className="label">&#40; לדוגמה: להיראות חטובים ושריריים, להיות יותר פרודקטיבים, להיראות נוכחות  &#41;</label>
           </div>
         </div>
         {/* /////////////5///////////// */}
         <div className="col-md-12">
           <div className="form-group">
-            <label className="form-label">&#40;מתחיל ב-VERB &#41;מהי התוצאה הגדולה מספר 2 שהם רוצים? </label>
-            <input
+            <label className="form-label">&#40; צריך להתחיל בפועל &#41;מהי התוצאה הגדולה מספר 2 שהם רוצים? </label>
+            <input dir="rtl"
               name="name"
               placeholder=""
               className="form-control"
@@ -147,7 +147,7 @@ export default function ContactForm() {
               onChange={(e) => setName(e.target.value)}
               required
             />
-            <span style={{ color: 'white' }}>&#40;פועל &#41;"הקהל שלי באמת רוצה _____." </span><br></br>
+            <span style={{ color: 'white' }}>&#40; פועל &#41;"הקהל שלי באמת רוצה _____." </span><br></br>
             <label className="label">&#40;לדוגמה: להרוויח תשואה דו ספרתית על השקעות המניות שלך; ליצור הכנסה פסיבית מהמחאות תמלוגים של אמזון; מצא קונה מוסמך במסגרת הזמן שלך; לקבל תשלום חודשי שאתה יכול להרגיש טוב לגביו; וכו '&#41;</label>
           </div>
         </div>
@@ -155,7 +155,7 @@ export default function ContactForm() {
         <div className="col-md-12">
           <div className="form-group">
             <label className="form-label">מהו כאב שהם רוצים להימנע באזור זה?:</label>
-            <input
+            <input dir="rtl"
               name="name"
               placeholder=""
               className="form-control"
@@ -173,7 +173,7 @@ export default function ContactForm() {
         <div className="col-md-12">
           <div className="form-group">
             <label className="form-label"> מהו מחסום דרכים שהם רואים כמעכב אותם מהמטרה שלהם?:  </label>
-            <input
+            <input dir="rtl"
               name="name"
               placeholder=""
               className="form-control"
@@ -190,7 +190,7 @@ export default function ContactForm() {
         <div className="col-md-12">
           <div className="form-group">
             <label className="form-label">באיזה מסגרת זמן תוכל לספק תוצאות?: </label>
-            <input
+            <input dir="rtl"
               name="name"
               placeholder=""
               className="form-control"
@@ -209,7 +209,7 @@ export default function ContactForm() {
         {/* <div className="col-md-12">
           <div className="form-group">
             <label className="form-label">Your Email</label>
-            <input
+            <input dir="rtl"
               name="email"
               placeholder=""
               className="form-control"
