@@ -3,9 +3,10 @@ import SocialBtns from './SocialBtns';
 import ContactInfo from './ContactInfo';
 import ContactForm from './ContactForm';
 
-export default function Contact({ data, socialData }) {
+export default function Contact({ data, socialData  }) {
   const { sectionHeading, contactImg, contactInfo } = data;
   return (
+   <>
     <section id="intro" className="section intro-section">
       <div className="container">
         <div className="intro-box rounded oveflow-hidden gray-bg">
@@ -40,5 +41,8 @@ export default function Contact({ data, socialData }) {
         </div>
       </div>
     </section>
+
+  </>
   );
+  
 }

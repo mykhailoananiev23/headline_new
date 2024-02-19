@@ -9,9 +9,9 @@ export default function SectionHeading({ miniTitle, title, variant }) {
         data-aos-duration="1200"
         data-aos-delay="200"
       >
-        <span>{miniTitle}</span>
+        <span >{miniTitle}</span>
       </h6>
-      <h2>{parser(title)}</h2>
+      <h3 >{title}</h3>
     </div>
   );
 }

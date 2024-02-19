@@ -64,6 +64,19 @@ export default function Header() {
               קֶלֶט
             </ScrollLink>
           </li>
+          
+          <li>
+            <ScrollLink
+              to="reset"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              onClick={() => window.location.reload()}
+            >
+              אִתחוּל
+            </ScrollLink>
+          </li>
         </ul>
         {/* Top Menu */}
         <div className="d-flex">
