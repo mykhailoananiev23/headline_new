@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import SectionHeading from './SectionHeading';
 import SampleData from '../data/sampleData.json';
 import $, { event } from 'jquery';
+import { json } from 'react-router-dom';
 export default function Result({ data, SetallValue }) {
   const { sectionHeading, allTestimonial } = data;
   const { content } = SampleData;
@@ -58,6 +59,23 @@ export default function Result({ data, SetallValue }) {
   const handleCopyClick = (e) => {
     var targetID = e.target.id ? e.target.id : e.target.parentNode.id;
     console.log(e.target.id);
+
+    //reset
+    $(".reply_color").css("color","#EEEEEE");
+    $(".copy_button" ).css("background-color","#0788ff");
+    $(".copy_button" ).css("color","#EEEEEE");
+    $(".copy_button").css("border-color","#0788ff");
+
+
+  
+    //active
+    $("." + targetID).css("color","gray");
+    $("." + targetID).css("border-color","gray");
+
+    $("#" + targetID).css("background-color","#040c16");
+    $("#" + targetID).css("border-color","white");
+
+
     navigator.clipboard.writeText($("." + targetID).html())
       .then(() => {
         setIsCopied(true);
@@ -91,22 +109,22 @@ export default function Result({ data, SetallValue }) {
               content == null ? null :
                 Object.entries(content).map((ele, id) =>( 
                   <div key={id}>
-                     <h4 className='pt-5 pb-2' >-<u>{ele[1]["title"]}</u></h4> 
+                     <h4  className='pt-5 pb-2' ><u style={{color:"#DDDDDD"}}>{ele[1]["title"]}</u></h4> 
                      {
                     Object.entries(content["headline"+ (id +1)]["answers"]).map((item, index) => (
-                      item[1] = item[1].replace(/1111/g, SetallValue["val1111"]),
-                      item[1] = item[1].replace(/3333/g, SetallValue["val3333"]),
-                      item[1] = item[1].replace(/4444/g, SetallValue["val4444"]),
-                      item[1] = item[1].replace(/5555/g, SetallValue["val5555"]),
-                      item[1] = item[1].replace(/6666/g, SetallValue["val6666"]),
-                      item[1] = item[1].replace(/7777/g, SetallValue["val7777"]),
-                      item[1] = item[1].replace(/8888/g, SetallValue["val8888"]),
+                      item[1] = item[1].replace("A1", SetallValue["val1111"]),
+                      item[1] = item[1].replace("A3", SetallValue["val3333"]),
+                      item[1] = item[1].replace("A4", SetallValue["val4444"]),
+                      item[1] = item[1].replace("A5", SetallValue["val5555"]),
+                      item[1] = item[1].replace("A6", SetallValue["val6666"]),
+                      item[1] = item[1].replace("A7", SetallValue["val7777"]),
+                      item[1] = item[1].replace("A8", SetallValue["val8888"]),
                       <div key={index}>
 
                         <div className='pt-3'>
                           <div>
-                           {item[0]}. &nbsp; <label className={"form-label "+'ID' + id+'_'+index }> {item[1]}</label>
-                            <button id={'ID' + id+'_'+index} onClick={(event) => handleCopyClick(event)} className='px-btn  d-lg-inline-flex copy_button' >{  'Copy'}</button>
+                           {parseInt(item[0])+1}. &nbsp; <label style={{color:"#EEEEEE"}} className={"reply_color form-label "+'ID' + id+'_'+index }> {item[1]}</label>
+                            <button id={'ID' + id+'_'+index} onClick={(event) => handleCopyClick(event)} className=' px-btn  d-lg-inline-flex copy_button' >{  'Copy'}</button>
                           </div>
                         </div>
                       </div>
