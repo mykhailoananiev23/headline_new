@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import SampleData from '../data/sampleData.json';
+
 import Result from '../components/Result';
 import HomePagdData_ from '../data/HomePagdData.json';
 
 export default function ContactForm({ Text_Value }) {
-  const {
-    content
-  } = SampleData;
+
 
   const {
 
@@ -255,9 +253,9 @@ export default function ContactForm({ Text_Value }) {
         flag?console.log(allValue):null
       }
       {
-        flag ?
-          <Result data={result} result_text={content} SetallValue={allValue} /> : null
-      }
+        flag ? 
+          <Result data={result}  SetallValue={allValue} /> : null
+     }
     </>
   );
 }

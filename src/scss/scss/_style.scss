@@ -820,3 +820,15 @@ a {
   position: relative;
   animation: moveLeftToRight 20s linear infinite; /* Move from left to right with 4s duration and repeat infinitely */
 }
+
+.copy_button {
+  padding: 1px 5px;
+  border-radius: 40px;
+  border: 2px solid var(--px-theme);
+  background-color: var(--px-theme);
+  color: var(--px-white);
+  
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

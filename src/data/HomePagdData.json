@@ -39,43 +39,7 @@
   "result":  {
     "sectionHeading": {
       "miniTitle": "  תוצאות כותרות ",
-      "title": "  100+ על"
-    },
-    "allTestimonial": [
-      {
-        "reviewText": "",
-        "avatarImg": "",
-        "avatarName": "",
-        "avatarCompany": ""
-      },
-      {
-        "reviewText": "",
-        "avatarImg": "",
-        "avatarName": "",
-        "avatarCompany": ""
-      },
-      {
-        "reviewText": "",
-        "avatarImg": "",
-        "avatarName": "",
-        "avatarCompany": ""
-      }
-      ,
-      {
-        "reviewText": "",
-        "avatarImg": "",
-        "avatarName": "",
-        "avatarCompany": ""
-      }
-      ,
-      {
-        "reviewText": "",
-        "avatarImg": "",
-        "avatarName": "",
-        "avatarCompany": ""
-      }
-      
-   
-    ]
+      "title": " "
+    }
   }
 }
