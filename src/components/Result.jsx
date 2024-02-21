@@ -20,23 +20,7 @@ export default function Result({ data, SetallValue }) {
   };
   var Result_Text = "";
 
-  if (SetallValue != null) {
-
-    for (let i = 1; i < 6; i++) {
-      // Generate a random number between 1 and 100
-      const randomNumber = Math.floor(Math.random() * 119) + 1;
-      Result_Text += i + ". " + content['headline' + randomNumber] + "\n";
-    }
-
-    Result_Text = Result_Text.replace(/1111/g, SetallValue["val1111"]);
-    Result_Text = Result_Text.replace(/2222/g, SetallValue["val2222"]);
-    Result_Text = Result_Text.replace(/3333/g, SetallValue["val3333"]);
-    Result_Text = Result_Text.replace(/4444/g, SetallValue["val4444"]);
-    Result_Text = Result_Text.replace(/5555/g, SetallValue["val5555"]);
-    Result_Text = Result_Text.replace(/6666/g, SetallValue["val6666"]);
-    Result_Text = Result_Text.replace(/7777/g, SetallValue["val7777"]);
-    Result_Text = Result_Text.replace(/8888/g, SetallValue["val8888"]);
-  }
+  
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -118,6 +102,7 @@ export default function Result({ data, SetallValue }) {
                       item[1] = item[1].replace("A5", SetallValue["val5555"]),
                       item[1] = item[1].replace("A6", SetallValue["val6666"]),
                       item[1] = item[1].replace("A7", SetallValue["val7777"]),
+                      item[1] = item[1].replace("A2", SetallValue["val2222"]),
                       item[1] = item[1].replace("A8", SetallValue["val8888"]),
                       <div key={index}>
 
