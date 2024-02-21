@@ -92,6 +92,7 @@ export default function Result({ data, SetallValue }) {
             {
               content == null ? null :
                 Object.entries(content).map((ele, id) =>( 
+                     ele[1]["title"]=ele[1]["title"].replace("A3" , SetallValue["val3333"])   ,
                   <div key={id}>
                      <h4  className='pt-5 pb-2' ><u style={{color:"#DDDDDD"}}>{ele[1]["title"]}</u></h4> 
                      {
