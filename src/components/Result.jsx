@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SectionHeading from './SectionHeading';
-import SampleData from '../data/sampleData.json';
+import SampleData from '../data/sampleData1.json';
 import $, { event } from 'jquery';
 import { json } from 'react-router-dom';
 export default function Result({ data, SetallValue }) {
