@@ -87,12 +87,12 @@ export default function Result({ data, SetallValue }) {
 
     
     // Create a Blob containing the HTML content
-    const blob = new Blob([cleanTextContent1], { type: 'text/plain' });
+    const blob = new Blob([cleanTextContent1], { type: 'application/msword' });
 
     // Create a temporary link element
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = fileName || 'html_content.txt'; // Specify the filename for the downloaded file
+    link.download = fileName || 'html_content.doc'; // Specify the filename for the downloaded file
 
     // Append the link to the document body and trigger the download
     document.body.appendChild(link);
@@ -104,7 +104,7 @@ export default function Result({ data, SetallValue }) {
 
   // Function to handle button click event
   function handleButtonClick() {
-    downloadHtmlAsTxt('targetTag', 'downloaded_html.txt');
+    downloadHtmlAsTxt('targetTag', 'downloaded_html.doc');
   }
 
   // Attach click event listener to the button
